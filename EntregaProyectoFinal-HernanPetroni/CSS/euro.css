@@ -1,0 +1,17 @@
+body{
+    background-color: green;
+}
+
+#app{
+    text-align: center;
+    color: aliceblue;
+}
+
+ul{
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    list-style: none;
+
+}

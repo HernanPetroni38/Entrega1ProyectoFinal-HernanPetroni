@@ -1,0 +1,68 @@
+body{
+    background-color: green;
+}
+
+p{
+    margin-top: auto;
+    margin: auto;
+    text-align: center;
+    font: bolder;
+    color:  white;
+}
+
+body header nav ul{
+    color: white;
+    list-style: none;
+    display: flex;
+}
+
+ul{
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+li{
+    margin: auto;
+    text-align: center; 
+    list-style: none;
+}
+
+#tostify{
+    color: rgb(5, 45, 97);
+    cursor: pointer;
+}
+
+
+#container { 
+    position: relative;
+    width: 80px;
+    height: 40px;
+    background-color: gray;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+body main #texto {
+    text-align: left;
+    margin-left: 300px;
+}
+
+.toggle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    transform: scale(.7);
+    background-color: white;
+    border-radius: 25px;
+}
+
+#container.active .toggle{
+    left:40px;
+}
+
+body.active{
+    background-color: blue;
+}
